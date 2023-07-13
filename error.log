@@ -1,0 +1,138 @@
+2023/07/13 09:17:22 [info] 131#131: *303 [lua] content.lua:10: http_user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:17:22 [info] 131#131: *303 [lua] content.lua:14: get-params: {"name":"bingcool"}, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:17:22 [info] 131#131: *303 [lua] content.lua:18: post-params: {}, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:17:22 [info] 131#131: *303 [lua] content.lua:22: req-header: {"sec-fetch-site":"none","cookie":"token=wefrghjkjkk; x-k=defgbjj","sec-fetch-mode":"navigate","cache-control":"max-age=0","sec-fetch-user":"?1","sec-ch-ua":"\"Not.A\/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-fetch-dest":"document","sec-ch-ua-mobile":"?0","host":"127.0.0.1:9506","sec-ch-ua-platform":"\"Windows\"","connection":"keep-alive","upgrade-insecure-requests":"1","accept-language":"zh-CN,zh;q=0.9","user-agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","accept":"text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/avif,image\/webp,image\/apng,*\/*;q=0.8,application\/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br"}, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:17:22 [info] 131#131: *303 [lua] content.lua:27: req-cookie: "token=wefrghjkjkk; x-k=defgbjj", client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:17:22 [info] 131#131: *303 [lua] content.lua:37: cookie token: wefrghjkjkk, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:18:09 [info] 131#131: *302 client timed out (110: Operation timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:9506
+2023/07/13 09:19:45 [info] 135#135: *323 [lua] content.lua:10: http_user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:19:45 [info] 135#135: *323 [lua] content.lua:14: get-params: {"name":"bingcool"}, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:19:45 [info] 135#135: *323 [lua] content.lua:18: post-params: {}, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:19:45 [info] 135#135: *323 [lua] content.lua:22: req-header: {"connection":"keep-alive","sec-fetch-mode":"navigate","cache-control":"max-age=0","sec-fetch-user":"?1","sec-ch-ua":"\"Not.A\/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-fetch-dest":"document","sec-ch-ua-mobile":"?0","accept-encoding":"gzip, deflate, br","sec-ch-ua-platform":"\"Windows\"","accept-language":"zh-CN,zh;q=0.9","upgrade-insecure-requests":"1","cookie":"token=wefrghjkjkk; x-k=defgbjj","user-agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","accept":"text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/avif,image\/webp,image\/apng,*\/*;q=0.8,application\/signed-exchange;v=b3;q=0.7","host":"127.0.0.1:9506","sec-fetch-site":"none"}, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:19:45 [info] 135#135: *323 [lua] content.lua:27: req-cookie: "token=wefrghjkjkk; x-k=defgbjj", client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:19:45 [info] 135#135: *323 [lua] content.lua:37: cookie token: wefrghjkjkk, client: 172.17.0.1, server: localhost, request: "GET /lua?name=bingcool HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:20:45 [info] 135#135: *322 client timed out (110: Operation timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:9506
+2023/07/13 09:21:13 [info] 138#138: *347 [lua] access.lua:10: uid=999, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:21:51 [info] 138#138: *348 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:22:51 [info] 141#141: *357 client timed out (110: Operation timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:9506
+2023/07/13 09:24:51 [info] 144#144: *382 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:24:53 [info] 144#144: *382 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:24:53 [info] 144#144: *382 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:24:54 [info] 144#144: *382 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:25:33 [info] 144#144: *381 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:26:33 [info] 147#147: *398 client timed out (110: Operation timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:9506
+2023/07/13 09:27:55 [info] 150#150: *419 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:27:55 [info] 150#150: *419 [lua] access.lua:13: user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:28:25 [info] 150#150: *419 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:28:25 [info] 150#150: *419 [lua] access.lua:13: user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:28:33 [info] 150#150: *419 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:28:33 [info] 150#150: *419 [lua] access.lua:13: user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:28:55 [info] 150#150: *418 client timed out (110: Operation timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:9506
+2023/07/13 09:29:52 [info] 153#153: *441 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:29:52 [info] 153#153: *441 [lua] access.lua:13: user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:29:59 [info] 153#153: *444 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:29:59 [info] 153#153: *444 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:29:59 [info] 153#153: *444 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:30:09 [info] 153#153: *445 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:30:09 [info] 153#153: *445 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:30:09 [info] 153#153: *445 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:30:19 [info] 153#153: *446 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:30:19 [info] 153#153: *446 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:30:19 [info] 153#153: *446 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:30:29 [info] 153#153: *447 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:30:29 [info] 153#153: *447 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:30:29 [info] 153#153: *447 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:30:39 [info] 153#153: *448 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:30:39 [info] 153#153: *448 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:30:39 [info] 153#153: *448 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:30:45 [info] 153#153: *441 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:30:45 [info] 153#153: *441 [lua] access.lua:13: user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:30:49 [info] 153#153: *451 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:30:49 [info] 153#153: *451 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:30:49 [info] 153#153: *451 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:30:52 [info] 153#153: *440 client timed out (110: Operation timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:9506
+2023/07/13 09:30:59 [info] 153#153: *452 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:30:59 [info] 153#153: *452 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:30:59 [info] 153#153: *452 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:31:09 [info] 153#153: *453 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:31:09 [info] 153#153: *453 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:31:09 [info] 153#153: *453 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:31:19 [info] 153#153: *454 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:31:19 [info] 153#153: *454 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:31:19 [info] 153#153: *454 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:31:29 [info] 153#153: *455 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:31:29 [info] 153#153: *455 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:31:29 [info] 153#153: *455 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:31:39 [info] 153#153: *456 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:31:39 [info] 153#153: *456 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:31:39 [info] 153#153: *456 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:31:49 [info] 153#153: *457 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:31:49 [info] 153#153: *457 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:31:49 [info] 153#153: *457 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:31:59 [info] 153#153: *458 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:31:59 [info] 153#153: *458 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:31:59 [info] 153#153: *458 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:32:09 [info] 153#153: *459 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:32:09 [info] 153#153: *459 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:32:09 [info] 153#153: *459 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:32:19 [info] 153#153: *460 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:32:19 [info] 153#153: *460 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:32:19 [info] 153#153: *460 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:32:29 [info] 153#153: *461 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:32:29 [info] 153#153: *461 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:32:29 [info] 153#153: *461 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:32:39 [info] 153#153: *462 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:32:39 [info] 153#153: *462 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:32:39 [info] 153#153: *462 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:32:49 [info] 153#153: *463 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:32:49 [info] 153#153: *463 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:32:49 [info] 153#153: *463 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:32:59 [info] 153#153: *464 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:32:59 [info] 153#153: *464 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:32:59 [info] 153#153: *464 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:33:09 [info] 153#153: *465 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:33:09 [info] 153#153: *465 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:33:09 [info] 153#153: *465 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:33:19 [info] 153#153: *466 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:33:19 [info] 153#153: *466 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:33:19 [info] 153#153: *466 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:33:29 [info] 153#153: *467 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:33:29 [info] 153#153: *467 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:33:29 [info] 153#153: *467 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:33:39 [info] 153#153: *468 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:33:39 [info] 153#153: *468 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:33:39 [info] 153#153: *468 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:33:49 [info] 153#153: *469 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:33:49 [info] 153#153: *469 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:33:49 [info] 153#153: *469 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:34:00 [info] 153#153: *470 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:34:00 [info] 153#153: *470 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:34:00 [info] 153#153: *470 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:34:10 [info] 153#153: *471 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:34:10 [info] 153#153: *471 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:34:10 [info] 153#153: *471 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:34:20 [info] 153#153: *472 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:34:20 [info] 153#153: *472 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:34:20 [info] 153#153: *472 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:34:30 [info] 153#153: *473 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:34:30 [info] 153#153: *473 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:34:30 [info] 153#153: *473 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:34:40 [info] 153#153: *474 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:34:40 [info] 153#153: *474 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:34:40 [info] 153#153: *474 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:34:41 [info] 153#153: *477 [lua] timer.lua:14: user_id_set=100, context: ngx.timer
+2023/07/13 09:34:41 [info] 153#153: *477 [lua] timer.lua:14: user_id_set=200, context: ngx.timer
+2023/07/13 09:34:41 [info] 153#153: *477 [lua] timer.lua:14: user_id_set=999, context: ngx.timer
+2023/07/13 09:34:45 [info] 156#156: *478 [lua] access.lua:10: uid=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:45 [info] 156#156: *478 [lua] access.lua:13: get_user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:46 [info] 156#156: *478 [lua] access.lua:10: uid=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:46 [info] 156#156: *478 [lua] access.lua:13: get_user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:46 [info] 156#156: *478 [lua] access.lua:10: uid=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:46 [info] 156#156: *478 [lua] access.lua:13: get_user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:50 [info] 156#156: *478 [lua] access.lua:10: uid=nil, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=44 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:50 [info] 156#156: *478 [lua] access.lua:13: get_user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=44 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:54 [info] 156#156: *478 [lua] access.lua:10: uid=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:34:54 [info] 156#156: *478 [lua] access.lua:13: get_user_id=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:35:09 [info] 156#156: *479 [lua] access.lua:10: uid=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:35:10 [info] 159#159: *495 [lua] access.lua:10: uid=1, client: 172.17.0.1, server: localhost, request: "GET /api/staff/test/echo?uid=999 HTTP/1.1", host: "127.0.0.1:9506"
+2023/07/13 09:36:10 [info] 159#159: *498 client timed out (110: Operation timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:9506

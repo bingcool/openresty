@@ -1,0 +1,7 @@
+curl -i http://127.0.0.1:9506/lua?type=1
+
+
+#lua扩展加载
+
+ lua_package_path "/usr/local/openresty/lualib/?.lua;;/home/wwwroot/openresty/?.lua;/home/luasocket-master/src/?.lua;";
+ lua_package_cpath "/usr/local/openresty/lualib/?.so;;";

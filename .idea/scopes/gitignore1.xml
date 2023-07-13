@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="gitignore1" pattern="gitignore||file[openresty]:lualib/*||file[openresty]:*/" />
+</component>
